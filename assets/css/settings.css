@@ -1,3 +1,5 @@
+/*----------Styles that are applied to all pages------------------*/
+
 /* Custom Fonts */
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
@@ -5,72 +7,103 @@
 :root {
     --main-bg-color: #1D3557;
     --main-font-color: #F1FAEE;
-    --main-padding: 20px
-    --h1-font: 'Notable', san-serif;
-    --h2-font: 'Source Sans Pro', san-serif;
-    --h3-font: 'Source Sans Pro', san-serif;
+    --primary-font: 'Notable', san-serif;
+    --secondary-font: 'Source Sans Pro', san-serif;
 }
 
 * {
-    color: var(--main-font-color);
-}
-
-/* Atlantis */
-h1 {
-    font-family: var(--h1-font);
-    font-size: 4em;
-}
-
-/* Restaurants & Coffee Shops, Stores, Tickets & Opening Hours */
-h2 {
-    font-family: var(--h2-font);
-    font-weight: bold;
-    font-size: 3em;
-}
-
-/* Quick Access, Address, Contact us, Social Media */
-h3 {
-    font-family: var(--h3-font);
-    font-weight: bold;
-    font-size: 2em;
-}
-
-/* "Biggest waterpark in Fantasialandia where millions of people have fun every year" */
-div.description {
-    font-size: 2em;
-    padding-bottom: 100px;
-}
-
-/* Big pictures */
-div.img-slide{
-    padding-bottom: 50px;
-}
-
-/* Small pictures */
-article.things-to-do-card{
-    padding-bottom: 50px;
-}
-
-/* Text */
-span {
-    font-size: 2em;
-}
-
-/* Lists */
-li {
-    font-size: 20px;
-}
-
-/* Address */
-address {
-    font-size: 20px;
-}
-
-/* info@atlantis.com */
-a {
-    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
 }
 
 body {
+    font-family: 'Notable', san-serif;
+    font-size: 16px;
+    color: var(--main-font-color);
     background-color: var(--main-bg-color);
+}
+
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:link,
+a:visited
+a:hover
+a:active {
+    color: var(--main-font-color);
+    text-decoration: none;
+}
+
+/*----------------HEADER-----------------*/
+.header {
+    padding: 30px 80px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.header .menu ul {
+    display: flex;
+}
+
+.header .menu ul li:not(:first-child) {
+    margin-left: 60px;
+}
+
+/*----------------FOOTER-----------------*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: var(--secondary-font);
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .footer-content h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.footer .footer-content li {
+    padding: 5px 0;
+}
+
+.footer .contact-info {
+    margin-top: 10px;
+}
+
+.footer .social-media ul {
+    display: flex;
+}
+.footer .social-media li {
+    display: flex;
+    padding: 5px;
+}
+
+.footer .social-media .facebook-logo {
+    width: 40px;
+}
+
+.footer .social-media .instagram-logo {
+    width: 30px;
+}
+
+.footer .copy-right {
+    align-self: center;
+    font-family: var(--secondary-font);
+    margin-top: 40px;
 }

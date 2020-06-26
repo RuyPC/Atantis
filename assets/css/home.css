@@ -1,0 +1,60 @@
+/* Atlantis */
+h1 {
+  font-family: var(--h1-font);
+  font-size: 4em;
+  
+}
+
+/* Restaurants & Coffee Shops, Stores, Tickets & Opening Hours */
+h2 {
+  font-family: var(--h2-font);
+  font-weight: bold;
+  font-size: 3em;
+}
+
+/* Quick Access, Address, Contact us, Social Media */
+h3 {
+  font-family: var(--h3-font);
+  font-weight: bold;
+  font-size: 2em;
+}
+
+/* "Biggest waterpark in Fantasialandia where millions of people have fun every year" */
+div.description {
+  font-size: 2em;
+  padding-bottom: 100px;
+}
+
+/* Big pictures */
+div.img-slide{
+  padding-bottom: 50px;
+}
+
+/* Small pictures */
+article.things-to-do-card{
+  padding-bottom: 50px;
+}
+
+/* Text */
+span {
+  font-size: 2em;
+}
+
+/* Lists */
+li {
+  font-size: 20px;
+}
+
+/* Address */
+address {
+  font-size: 20px;
+}
+
+/* info@atlantis.com */
+a {
+  font-size: 20px;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
