@@ -54,6 +54,34 @@ a:active {
     text-decoration: none;
 }
 
+.page-title {
+    margin-bottom: 40px;
+}
+
+/* grid layout for all pages */
+.grid-container {
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr;
+    grid-template-areas: 
+      "header header header" 
+      ". main ."
+      "footer footer footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.main-promotions,
+.main-attractions,
+.main-home {
+    grid-area: main;
+}
+
 /*----------------HEADER-----------------*/
 .header {
     padding: 30px 80px;
