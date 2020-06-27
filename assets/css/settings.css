@@ -77,7 +77,7 @@ a:active {
 }
 
 /* Header - Mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .header {
       flex-direction: column;
       justify-content: center;
@@ -152,7 +152,7 @@ a:active {
     margin-top: 40px;
 }
 /* Footer - Mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .footer .footer-content {
         flex-direction: column;
         justify-content: center;
