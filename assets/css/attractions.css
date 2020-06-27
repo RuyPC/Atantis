@@ -1,3 +1,4 @@
+/* Class for the main image */
 .banner-image-attractions-page{
     
     width: 100%;
@@ -14,7 +15,7 @@
 }
 
 
-
+/* Class for parent container for the attractions */
 .container-attractions{
     margin-left: 10%;
     margin-right: 10%;
@@ -23,38 +24,49 @@
     
 }
 
+/* Class for coantainer of the image and text of attractions */
 .attractions-description{
-    align-content: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 100px;
     margin-top: 100px;
-    height: 300px;
-    padding: 10px;
-    border-radius: 10px;
+
+
 
 
 }
 
 
-
+/* Class for parent container for the image of each attractions */
 .image-attractions-description{
+
+    margin: 5px;
     width: 30%;
-    float: left;
+    height: 100%;
+    
+
 }
 
 .image-attractions-description img{
     
 
     border-radius: 10px;
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
 
 
     
 }
 
+
+/* Class for parent container for the text of each attractions */
+
 .text-attractions-description{
+
+    margin: 5px;
     width: 70%;
-    float: right;
+    height: 100%;
+
 
     
 }
@@ -62,4 +74,9 @@
 .text-attractions-description h3
 {
     opacity: 900;
+}
+
+.text-attractions-description span
+{   
+    color: darkgrey;
 }
