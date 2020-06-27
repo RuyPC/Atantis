@@ -1,0 +1,65 @@
+.banner-image-attractions-page{
+    
+    width: 100%;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 5em;
+
+}
+
+.banner-image-attractions-page img{
+    width: 100%;
+    padding: 5px;
+    
+}
+
+
+
+.container-attractions{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: auto;
+   
+    
+}
+
+.attractions-description{
+    align-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+
+
+.image-attractions-description{
+    width: 30%;
+    float: left;
+}
+
+.image-attractions-description img{
+    
+
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+
+
+    
+}
+
+.text-attractions-description{
+    width: 70%;
+    float: right;
+
+    
+}
+
+.text-attractions-description h3
+{
+    opacity: 900;
+}
