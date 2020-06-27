@@ -2,12 +2,12 @@
 
 /* Custom Fonts */
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
     --main-bg-color: #1D3557;
     --main-font-color: #F1FAEE;
-    --primary-font: 'Notable', san-serif;
+    --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Source Sans Pro', san-serif;
 }
 
@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: 'Notable', san-serif;
+    font-family: var(--primary-font);
     font-size: 16px;
     color: var(--main-font-color);
     background-color: var(--main-bg-color);
@@ -65,7 +65,6 @@ a:active {
     flex-direction: column;
     padding: 20px;
     margin-top: 40px;
-    font-family: var(--secondary-font);
 }
 
 .footer .footer-content {
@@ -104,6 +103,5 @@ a:active {
 
 .footer .copy-right {
     align-self: center;
-    font-family: var(--secondary-font);
     margin-top: 40px;
 }
