@@ -1,60 +1,58 @@
-/* Atlantis */
-h1 {
-  font-family: var(--h1-font);
-  font-size: 4em;
-  
+.img-slide img
+{
+    width: 100%;
+    
+}
+.description 
+{
+    text-align: center;
 }
 
-/* Restaurants & Coffee Shops, Stores, Tickets & Opening Hours */
-h2 {
-  font-family: var(--h2-font);
-  font-weight: bold;
-  font-size: 3em;
+.things-to-do
+{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
-/* Quick Access, Address, Contact us, Social Media */
-h3 {
-  font-family: var(--h3-font);
-  font-weight: bold;
-  font-size: 2em;
+.things-to-do-element
+{
+    width: 30%;
+    margin: 1%;
 }
 
-/* "Biggest waterpark in Fantasialandia where millions of people have fun every year" */
-div.description {
-  font-size: 2em;
-  padding-bottom: 100px;
+.things-to-do-element img
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
 }
 
-/* Big pictures */
-div.img-slide{
-  padding-bottom: 50px;
+.card-title
+{
+    height: 30%;
 }
 
-/* Small pictures */
-article.things-to-do-card{
-  padding-bottom: 50px;
+.card-img
+{
+    height: 70%;
 }
 
-/* Text */
-span {
-  font-size: 2em;
+.things-to-do-card h2
+{
+    text-align: center;
 }
 
-/* Lists */
-li {
-  font-size: 20px;
-}
 
-/* Address */
-address {
-  font-size: 20px;
-}
+@media screen and (max-width: 900px) {
+    .things-to-do {
+        flex-direction: column;
+    }
+    .things-to-do-element {
+        width: 100%;
+        margin-bottom: 50px;
+    }
 
-/* info@atlantis.com */
-a {
-  font-size: 20px;
-}
-
-body {
-  background-color: var(--main-bg-color);
 }
