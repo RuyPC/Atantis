@@ -31,6 +31,11 @@
   margin: 20px;
   text-align: center;
   box-shadow: 1px 2px 5px 12px rgba(0,0,0,0.13);
+  transition: all .2s;
+}
+
+.promotion-block:hover {
+  transform: scale(1.1);
 }
 
 .promo-description {

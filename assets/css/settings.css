@@ -112,8 +112,12 @@ a:active {
 .header .menu ul li {
     height: 100%;
 }
-.header .menu ul li:hover {
-     background-color: #122036;
+.header .menu ul a {
+    padding: 10px;
+}
+
+.header .menu ul a:hover {
+    background-color: #122036;
  }
 
 
@@ -162,6 +166,10 @@ a:active {
     background-color: #172a45;
 }
 
+.footer a:hover {
+    opacity: .4;
+}
+
 .footer .footer-content {
     display: flex;
     justify-content: space-around;
@@ -195,9 +203,12 @@ a:active {
     width: 30px;
 }
 
-.footer .footer-content .quick-access h3 ul li: hover{
-    color: #122036;
+.footer .copy-right {
+    /* margin-top: 40px; */
+    margin: 60px auto 10px auto;
 }
+
+
 /* Footer - Mobile */
 @media screen and (max-width: 900px) {
     .footer .footer-content {
