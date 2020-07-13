@@ -89,6 +89,9 @@ a:active {
     display: flex;
     justify-content: space-between;
     font-size: 24px;
+    background-color: #172a45;
+    
+
 }
 
 .header .logo a {
@@ -98,11 +101,21 @@ a:active {
 
 .header .menu ul {
     display: flex;
+    height: 185%
 }
 
-.header .menu ul li:not(:first-child) {
-    margin-left: 60px;
+.header .menu ul li{
+    padding-left: 30px;
+    padding-right: 30px;
+    
 }
+.header .menu ul li {
+    height: 100%;
+}
+.header .menu ul li:hover {
+     background-color: #122036;
+ }
+
 
 /* Header - Mobile */
 @media screen and (max-width: 900px) {
@@ -120,6 +133,7 @@ a:active {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: #172a45;
     }
 
     .header .menu ul li {
@@ -132,6 +146,11 @@ a:active {
     .header .menu ul li:not(:first-child) {
         margin-left: 0;
     }
+    
+    .header .menu ul li:hover {
+        background-color: #122036;
+    }
+
 }
 
 /*----------------FOOTER-----------------*/
@@ -140,6 +159,7 @@ a:active {
     flex-direction: column;
     padding: 20px;
     margin-top: 40px;
+    background-color: #172a45;
 }
 
 .footer .footer-content {
@@ -175,9 +195,8 @@ a:active {
     width: 30px;
 }
 
-.footer .copy-right {
-    align-self: center;
-    margin-top: 40px;
+.footer .footer-content .quick-access h3 ul li: hover{
+    color: #122036;
 }
 /* Footer - Mobile */
 @media screen and (max-width: 900px) {
