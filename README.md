@@ -10,6 +10,7 @@ Design specification
 1.-Agree on the purpose of the web site
 
 The purpose of a theme park website is to show what type of attractions they offer, the infrastructure (e.g. restaurants and hotels) and sell tickets. Companies are expected to have an online site nowadays in order to reach more audiences at any time.
+
 In general, the target audience could be families and tour agencies and they would be looking for deals and what type of theme park it is and its attractions. We can think of three main people who might visit the site:
 
  A- First time users. These kinds of people may look at our website looking for information like the different attractions in the park, the prices, promotions, pictures, or general information they are looking for to confirm their decision regarding visiting our park.
@@ -46,14 +47,23 @@ Phantasialand has the most distinct website among them. Although it is beautiful
 Our park would be a Water Theme Park. There, we can offer different services that can be included in our web site.
 
 *Main attractions
+
 *Other small attractions and fun zones.
+
 *Food service and restaurants
+
 *Special promotions
+
 *Money access through ATMs
+
 *Health service
+
 *Tour and travel agencies packages.
+
 *Tickets services.
+
 *Shows and team games.
+
 *Stores and souvenir stalls.
 
 ----------------------------
@@ -62,13 +72,17 @@ Our park would be a Water Theme Park. There, we can offer different services tha
 Our website could be a compound of three different pages. The website could be scalable in the future where we can include more pages after the analysis of the users interaction.
 
 *Main Page
+
 *Attractions Page
+
 *Promotions and Tickets.
+
 
 In our main webpage:
 
  We could design it using a layout or block design. In the header section, we can include a fixed top bar with a log in the LHS and links to the other two pages at the RHS.
 In the content section, We could include a carousel of pictures with a Javascript code that changes the pictures to show different attractions.  We can include another section with cards of our three main attractions and services.
+
 In the footer, we could include information like our schedule, opening hours, location, and links to future pages like: about us, policies, vacancies, investors.
 
 In our attractions page:
@@ -79,6 +93,7 @@ For our content section, we could have an image related to the page content. Bel
 Promotions and Tickets:
 
 We could have the same header and footer. For the content sections we will have the prices for general audiences, groups of people , kids. The format has to be in a centered block.
+
 Below it, we could have a three block section with our three different promotions in holidays, or school days, or memberships.
 If we need to add more promotions in the future we could add more three block sections.
 
@@ -95,9 +110,15 @@ Thank you for visiting our project. Thank you for being nice. We are doing our b
 Team Members:
 
 Ruy Perez Callejas
+
 Uriel de Oliveira Alves
+
 Kasidis Satangmongkol
+
 Wilson Chan
+
 Wong Yung Chun
+
 Louis Nash
+
 
