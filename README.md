@@ -97,15 +97,19 @@ We could have the same header and footer. For the content sections we will have 
 Below it, we could have a three block section with our three different promotions in holidays, or school days, or memberships.
 If we need to add more promotions in the future we could add more three block sections.
 
+--------------------------
+
 5.-Design the wireframes for the web site
 
 https://docs.google.com/presentation/d/1nCr6Zsg8Z6531dvnWyiFh41QNuUlSQe1A32DOcHiVRk/edit?usp=sharing
 
 https://docs.google.com/document/d/1jzqj9rt8oWZznqNaLJs60fBwmux9jGecmWGdUML62q8/edit?usp=sharing
 
-
+---------------------------
 
 Thank you for visiting our project. Thank you for being nice. We are doing our best to learn the magic of web development.
+
+--------------------------
 
 Team Members:
 
