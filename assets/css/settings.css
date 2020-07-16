@@ -186,6 +186,11 @@ a:active {
     align-self: center;
     margin-top: 40px;
 }
+
+.footer a:hover {
+    opacity: .4;
+}
+
 /* Footer - Mobile */
 @media screen and (max-width: 900px) {
     .footer .footer-content {
