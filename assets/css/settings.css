@@ -89,19 +89,23 @@ a:active {
     display: flex;
     justify-content: space-between;
     font-size: 24px;
+    border-bottom: 1px solid grey;
+    text-align: center;
 }
 
-.header .logo a {
-    font-weight: bold;
-    font-size: 28px;
-}
-
-.header .menu ul {
+.header .menu {
     display: flex;
+    justify-content: space-around;
 }
 
-.header .menu ul li:not(:first-child) {
-    margin-left: 60px;
+.header .menu .menu-text {
+    display: flex;
+    padding-top: 20px;
+}
+
+.header .menu .menu-text a:hover {
+    background-color: #122036;
+    border-radius: 10px;
 }
 
 /* Header - Mobile */
@@ -113,25 +117,26 @@ a:active {
       padding: 20px 0 0 0;
       text-align: center;
     }
-
-    .header .menu ul {
+    
+    .header .menu .menu-logo {
+        justify-content: center;
+        position: absolute;
+        margin-top: -10px;
+    }
+    
+    .header .menu .menu-text {
         border-top: 1px solid grey;
-        margin-top: 20px;
+        margin-top: 50px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .header .menu ul li {
+        background-color: #172a45;
         width: 100%;
         flex: 1;
         padding: 15px;
         border-bottom: 1px solid grey;
     }
 
-    .header .menu ul li:not(:first-child) {
-        margin-left: 0;
-    }
 }
 
 /*----------------FOOTER-----------------*/
@@ -140,6 +145,7 @@ a:active {
     flex-direction: column;
     padding: 20px;
     margin-top: 40px;
+    border-top: 1px solid grey;
 }
 
 .footer .footer-content {
