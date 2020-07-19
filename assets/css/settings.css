@@ -84,41 +84,31 @@ a:active {
 
 /*----------------HEADER-----------------*/
 .header {
-    padding: 30px 80px;
+    padding: 10px 80px;
     margin-bottom: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     font-size: 24px;
-    background-color: #172a45;
-    
+    border-bottom: 1px solid grey;
+    text-align: center;
 
 }
 
-.header .logo a {
-    font-weight: bold;
-    font-size: 28px;
-}
-
-.header .menu ul {
+.header .menu  {
     display: flex;
-    height: 185%
+    justify-content: space-around;
 }
 
-.header .menu ul li{
-    padding-left: 30px;
-    padding-right: 30px;
-    
-}
-.header .menu ul li {
-    height: 100%;
-}
-.header .menu ul a {
-    padding: 10px;
+.header .menu .menu-text {
+    display: flex;
+    padding-top: 20px;
 }
 
-.header .menu ul a:hover {
+.header .menu .menu-text a:hover{
     background-color: #122036;
- }
+    border-radius: 10px;
+}
 
 
 /* Header - Mobile */
@@ -131,26 +121,25 @@ a:active {
       text-align: center;
     }
 
-    .header .menu ul {
+    .header .menu .menu-logo {
+        justify-content: center;
+        position: absolute;
+        margin-top: -10px;
+    }
+    
+    .header .menu .menu-text {
         border-top: 1px solid grey;
-        margin-top: 20px;
+        margin-top: 50px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: #172a45;
-    }
-
-    .header .menu ul li {
         width: 100%;
         flex: 1;
         padding: 15px;
         border-bottom: 1px solid grey;
     }
 
-    .header .menu ul li:not(:first-child) {
-        margin-left: 0;
-    }
-    
     .header .menu ul li:hover {
         background-color: #122036;
     }
@@ -163,7 +152,7 @@ a:active {
     flex-direction: column;
     padding: 20px;
     margin-top: 40px;
-    background-color: #172a45;
+    border-top: 1px solid grey;
 }
 
 .footer a:hover {
